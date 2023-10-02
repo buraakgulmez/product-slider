@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="swiper mySwiper">
+      <h1 class="baslik-slider">Çok Satanlar</h1>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="hazne">
+            <a href="https://www.inviernocosmetics.com/after-sun-sensitive">
+              <img src="/img/urun-slider-1.png" alt=""
+            /></a>
+          </div>
+          <p class="baslik-p">After Sun Sensitive</p>
+        </div>
+        <div class="swiper-slide">
+          <div class="hazne">
+            <a href="#"> <img src="/img/urun-slider-2.png" alt="" /></a>
+          </div>
+          <p class="baslik-p">Leke Önleyici Serum</p>
+        </div>
+        <div class="swiper-slide">
+          <div class="hazne">
+            <a href="#"> <img src="/img/urun-slider-3.png" alt="" /></a>
+          </div>
+          <p class="baslik-p">Bronzlaştırıcı Losyon</p>
+        </div>
+        <div class="swiper-slide">
+          <div class="hazne">
+            <a href="#">
+              <img src="/img/urun-slider-4.png" alt="" />
+            </a>
+          </div>
+          <p class="baslik-p">50 Faktör Güneş Kremi</p>
+        </div>
+        <div class="swiper-slide">
+          <div class="hazne">
+            <a href="#"> <img src="/img/urun-slider-5.png" alt="" /></a>
+          </div>
+          <p class="baslik-p">Hassas Bölge Beyazlatıcı Krem</p>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        scrollbar: {
+          el: ".swiper-scrollbar",
+          hide: true,
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+          1200: {
+            slidesPerView: 4,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
