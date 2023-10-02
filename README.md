@@ -1,4 +1,4 @@
-# product-slider
+
 Bu projemde, bir web sitesi için özel tasarlanmış bir ürün slider'ı geliştirdim. Slider için, kullanıcı dostu ve modern bir deneyim sunan swiper-js kütüphanesini tercih ettim. Slider'ı responsive bir yapıya sahip olacak şekilde özenle tasarladım.
 Slider'ım, kullanıcıların ürün görsellerini daha yakından inceleyebilmeleri için özel bir özellik sunuyor. Görseller üzerine geldiğinizde, görsellerin x ve y eksenlerinde zarif bir şekilde dönüşerek kullanıcıların ilgisini çekiyor. Bu animasyonlar, kullanıcıların ürünlerin detaylarına odaklanmalarına yardımcı oluyor.
 Projem, hem estetik hem de işlevsellik açısından özenle tasarlanmış bir web deneyimi sunuyor. Kullanıcıların ürünleri daha yakından incelemeleri için etkileyici bir yol sağlıyor.
